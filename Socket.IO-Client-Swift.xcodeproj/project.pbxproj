@@ -1141,7 +1141,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.socket.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = $SRCROOT/zlib;
+				SWIFT_INCLUDE_PATHS = "$(SOURCE_ROOT)/zlib";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1199,7 +1199,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.socket.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = $SRCROOT/zlib;
+				SWIFT_INCLUDE_PATHS = "$(SOURCE_ROOT)/zlib";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
