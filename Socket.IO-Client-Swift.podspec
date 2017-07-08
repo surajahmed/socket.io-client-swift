@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
     :submodules => true
   }
   s.source_files  = "Source/**/*.swift"
+  s.exclude_files = 'Source/Starscream/examples/*'
   s.requires_arc = true
   # s.dependency 'Starscream', '~> 0.9' # currently this repo includes Starscream swift files
 end
