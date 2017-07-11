@@ -230,7 +230,7 @@ open class SocketIOClient : NSObject, SocketIOClientSpec, SocketEngineClient, So
 
         didDisconnect(reason: "Disconnect")
     }
-    open func isConnected() {
+    open func isConnected() -> Bool {
 
         if status == .connected || status == .connecting {
 
