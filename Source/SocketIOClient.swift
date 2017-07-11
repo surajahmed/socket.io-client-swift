@@ -230,6 +230,17 @@ open class SocketIOClient : NSObject, SocketIOClientSpec, SocketEngineClient, So
 
         didDisconnect(reason: "Disconnect")
     }
+    open func isConnected() {
+
+        if status == .connected || status == .connecting {
+
+            return true
+        } else {
+
+            return false
+
+        }
+     }
 
     /// Send an event to the server, with optional data items.
     ///
